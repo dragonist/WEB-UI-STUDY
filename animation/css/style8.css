@@ -74,21 +74,3 @@
     opacity:0.3;
 }
 
-.ca-menu li:hover .ca-icon{
-    -webkit-animation: smallToBig 900ms alternate infinite ease;
-}
-
-.ca-menu li:hover .ca-main{
-    color: #ccff00;
-    -webkit-animation: smallToBig 300ms ease;
-}
-
-@-webkit-keyframes smallToBig{
-    from {
-        -webkit-transform: scale(0.1);
-    }
-    to {
-        -webkit-transform: scale(1);
-    }
-}
-
